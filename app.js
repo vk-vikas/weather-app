@@ -18,8 +18,8 @@ const showWeather = (data) => {
     <img src="http://openweathermap.org/img/wn/${data.weather[0].icon}@2x.png" alt="" />
   </div>
   <div>
-    <h2>${data.main.temp} degree</h2>
-    <h2>${data.weather[0].main}</h2>
+    <h2>${data.main.temp} °C</h2>
+    <h3>${data.weather[0].main}</h3>
   </div>
 </div>`;
 };
